@@ -5,12 +5,16 @@
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
   font-family: 'Red Hat Display', sans-serif;
   font-size: 16px;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  background-color: hsl(225, 100%, 94%);
+  background-image: url('./images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+  background-color: hsl(224, 23%, 55%);
 }
 
 .card-container {
@@ -128,6 +132,10 @@ p {
 
   body {
     font-size: 14px;
+    background-image: url('./images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+    background-color: hsl(224, 23%, 55%);
   }
 
   .card-container {
@@ -146,11 +154,5 @@ p {
   .card-body__plan-container {
     margin: 1.5rem 0;
     padding: 12px 10px 12px 15px;
-    /* display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    align-items: center;
-    background-color: hsl(225, 100%, 98%);
-    border: none;
-    border-radius: 20px; */
   }
 }
