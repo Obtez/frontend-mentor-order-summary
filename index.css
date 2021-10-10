@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* colors:
+primary: 
+pale blue - hsl(225, 100%, 94%)
+bright blue - hsl(245, 75%, 52%
+
+neutral:
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+
+*/
+
+/* media queries: 1440px and 375px */
+
+/* fonts:
+body p : 16px 
+font family: Red Hat Display
+weights: 500, 700, 900
+*/
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.card-container {
+  border: 1px solid red;
+  width: 453px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-self: center;
+  justify-self: center;
+}
+
+.hero-image {
+  width: 453px;
+  height: auto;
+}
+
+.card-body {
+  padding: 0px 50px 20px 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
